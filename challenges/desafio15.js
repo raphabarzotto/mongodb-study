@@ -4,7 +4,6 @@ db.produtos
 db.produtos
   .updateMany({ tags: { $all: ["bovino"] } }, { $inc: { avaliacao: 5 } });
 
-  
 db.produtos
   .updateMany({ tags: { $all: ["ave"] } }, { $inc: { avaliacao: 3 } });
 
