@@ -6,11 +6,7 @@
   <summary><strong>Answer</strong></summary>
 
   ```js
-  db.produtos.find({
-    $or: [
-      { curtidas: { $eq: 36 } },
-      { vendidos: { $eq: 85 } },
-    ],
-  }, { _id: 0, nome: 1, curtidas: 1, vendidos: 1 });
+  db.produtos
+    .find({ curtidas: { $gt: 10, $lt: 100 } }, { _id: 0, nome: 1, curtidas: 1 });
   ```
 </details>
