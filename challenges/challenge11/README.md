@@ -1,4 +1,4 @@
-# Challenge 10
+# Challenge 11
 - Return all products
 - Name different than `Big Mac` and `McChicken`
 - Show only `name`, `likes` and `quantity`
