@@ -8,9 +8,9 @@
 
   ```js
   db.produtos
-    .updateMany({}, { $rename: { descricao: "descricaoSite" } });
+    .updateOne({ nome: "Big Mac" }, { $unset: { curtidas: "" } });
 
   db.produtos
-    .find({}, { _id: 0, nome: 1, descricaoSite: 1 });
+    .find({}, { _id: 0, nome: 1, curtidas: 1 });
   ```
 </details>
