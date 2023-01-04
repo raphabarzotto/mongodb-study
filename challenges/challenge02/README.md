@@ -1,5 +1,5 @@
 # Challenge 2
-- Oder `produtos` collection by quantity of sold snacks
+- Order `produtos` collection by quantity of sold snacks
 - Show only `name` and `quantity`
 
 <details>
